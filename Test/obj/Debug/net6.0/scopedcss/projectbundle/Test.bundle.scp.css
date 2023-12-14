@@ -1,0 +1,119 @@
+/* _content/Test/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-zz1b99kxi4] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a[b-zz1b99kxi4] {
+    color: #0077cc;
+}
+
+.btn-primary[b-zz1b99kxi4] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-zz1b99kxi4], .nav-pills .show > .nav-link[b-zz1b99kxi4] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top[b-zz1b99kxi4] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-zz1b99kxi4] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-zz1b99kxi4] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-zz1b99kxi4] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer[b-zz1b99kxi4] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+
+#SlideItMoo_outer[b-zz1b99kxi4] {
+    overflow: hidden;
+    width: 940px;
+    height: 150px;
+    margin: 0 auto;
+    background: none;
+    display: block;
+    position: relative;
+    padding: 0;
+}
+    /* create custom forward-backward buttons for this container */
+    #SlideItMoo_outer .SlideItMoo_forward[b-zz1b99kxi4],
+    #SlideItMoo_outer .SlideItMoo_back[b-zz1b99kxi4] {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        width: 25px;
+        height: 150px;
+        bottom: 0px;
+        right: 0px;
+        background: url(../images/slideitmoo_forward.png) no-repeat center;
+    }
+
+    #SlideItMoo_outer .SlideItMoo_back[b-zz1b99kxi4] {
+        left: 0px;
+        background: url(../images/slideitmoo_back.png) no-repeat center;
+    }
+
+/* the width is set to show the number of thumbnails that will be visible */
+#SlideItMoo_inner[b-zz1b99kxi4] {
+    position: relative;
+    overflow: hidden;
+    width: 940px; /* set a display width to make the slider look good in case js is disabled */
+    margin: 0px auto 0px;
+    padding: 10px 0px 10px;
+}
+/* the thumbnails container; set a width on it so everything will be fine */
+#SlideItMoo_items[b-zz1b99kxi4] {
+    display: block;
+    position: relative;
+}
+    /* single element design */
+    #SlideItMoo_items div.SlideItMoo_element[b-zz1b99kxi4] {
+        display: block;
+        position: relative;
+        float: left;
+        margin: 0px 5px 0px;
+        font-size: 11px;
+        width: 160px;
+        height: 120px;
+        text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
+        color: #000000;
+    }
+
+    #SlideItMoo_items a[b-zz1b99kxi4] {
+        padding: 0px;
+        margin: 3px 0px 3px;
+        clear: both;
+        display: block;
+        background: none;
+        padding: 2px;
+    }
+
+        #SlideItMoo_items a img[b-zz1b99kxi4] {
+            border: none;
+        }

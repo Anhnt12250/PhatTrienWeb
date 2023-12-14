@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Models",
+    "\\Properties",
+    "\\Views",
+    "\\Views\\About",
+    "\\Views\\CheckOut",
+    "\\Views\\CheckOut\\CheckOut_Components",
+    "\\Views\\Contact",
+    "\\Views\\Contact\\Contact_Components"
+  ],
+  "SelectedNode": "\\Models\\ErrorViewModel.cs",
+  "PreviewInSolutionExplorer": false
+}
