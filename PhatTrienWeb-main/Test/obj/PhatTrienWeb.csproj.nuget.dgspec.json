@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\PhatTrienWeb.csproj": {}
+    "D:\\STUDY\\PhatTrienWeb\\Project\\PhatTrienWeb-main\\Test\\PhatTrienWeb.csproj": {}
   },
   "projects": {
-    "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\PhatTrienWeb.csproj": {
+    "D:\\STUDY\\PhatTrienWeb\\Project\\PhatTrienWeb-main\\Test\\PhatTrienWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\PhatTrienWeb.csproj",
+        "projectUniqueName": "D:\\STUDY\\PhatTrienWeb\\Project\\PhatTrienWeb-main\\Test\\PhatTrienWeb.csproj",
         "projectName": "PhatTrienWeb",
-        "projectPath": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\PhatTrienWeb.csproj",
-        "packagesPath": "C:\\Users\\GoldenFealla\\.nuget\\packages\\",
-        "outputPath": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\obj\\",
+        "projectPath": "D:\\STUDY\\PhatTrienWeb\\Project\\PhatTrienWeb-main\\Test\\PhatTrienWeb.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\STUDY\\PhatTrienWeb\\Project\\PhatTrienWeb-main\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GoldenFealla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

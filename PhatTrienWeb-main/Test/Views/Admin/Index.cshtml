@@ -1,0 +1,72 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model PhatTrienWeb.ViewModels.AdminViewModel
+
+<div class="cleaner h20"></div>
+<div id="templatemo_main_top"></div>
+<div id="templatemo_main">
+    @await Component.InvokeAsync("Sidebar")
+    <div id="content">
+        <h2>Add Product</h2>
+        <div class="col col_13">
+            <table width="700px" cellspacing="0" cellpadding="5">
+                <tr bgcolor="#CCCCCC">
+                    <th width="220" align="left">Image </th>
+                    <th width="180" align="left">name </th>
+                    <th width="220" align="center"></th>
+                    <th width="90"> </th>
+                </tr>
+
+                @foreach (var item in Model.Products)
+                {
+                    <tr>
+                        <td><img src="~/images/product/@item.Image" alt="@item.Name" /></td>
+                        <td>@item.Name</td>
+                        <td align="center">
+                            <a asp-controller="Admin" asp-action="Delete" asp-route-id="@item.Id">
+                                <img src="~/images/remove_x.gif" alt="remove" />
+                                <br />Remove
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </table>
+
+            @Html.ValidationMessage("ProductError")
+            <form id="addProductForm" method="post" name="addProductForm"  asp-action="Create">
+                <label asp-for="AddProductViewModel.ProductName">Product Name:</label>
+                <input asp-for="AddProductViewModel.ProductName" type="text" id="productname" name="productname" class="required input_field" />
+                <span asp-validation-for="AddProductViewModel.ProductName" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="AddProductViewModel.Description">Description:</label>
+                <input asp-for="AddProductViewModel.Description" type="text" id="description" name="description" class="required input_field" />
+                <span asp-validation-for="AddProductViewModel.Description" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="AddProductViewModel.Price">Price:</label>
+                <input asp-for="AddProductViewModel.Price" type="number" id="price" name="price" class="required input_field" />
+                <span asp-validation-for="AddProductViewModel.Price" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="AddProductViewModel.Image">Image:</label>
+                <input asp-for="AddProductViewModel.Image" type="text" id="image" name="image" class="required input_field" />
+                <span asp-validation-for="AddProductViewModel.Image" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="AddProductViewModel.CategoryId">Category ID:</label>
+                <input asp-for="AddProductViewModel.CategoryId" type="text" id="categoryid" name="categoryid" class="required input_field" />
+                <span asp-validation-for="AddProductViewModel.CategoryId" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <input type="submit" value="Send" id="submit" name="submit" class="subscribebtn float_l" />
+            </form>
+        </div>
+    </div>
+    <div class="cleaner"></div>
+</div>
+
