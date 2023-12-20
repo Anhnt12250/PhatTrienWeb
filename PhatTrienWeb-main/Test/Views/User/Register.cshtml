@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model PhatTrienWeb.Models.RegisterViewModel
+
+<div class="cleaner h20"></div>
+<div id="templatemo_main_top"></div>
+<div id="templatemo_main">
+    @await Component.InvokeAsync("Sidebar")
+    <div id="content">
+        <h2>Register</h2>
+        <div class="col col_13">
+            @Html.ValidationMessage("RegisterError")
+            <form id="registerForm" method="post" name="registerform" asp-action="Register">
+                <label asp-for="UserName">Username:</label>
+                <input asp-for="UserName" type="text" id="username" name="username" class="required input_field" />
+                <span asp-validation-for="UserName" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="FirstName">First Name:</label>
+                <input asp-for="FirstName" type="text" id="firstname" name="firstname" class="required input_field" />
+                <span asp-validation-for="FirstName" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="LastName">Last Name:</label>
+                <input asp-for="LastName" type="text" id="lastname" name="lastname" class="required input_field" />
+                <span asp-validation-for="LastName" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="Email">Email:</label>
+                <input asp-for="Email" type="text" id="email" name="email" class="validate-email required input_field" />
+                <span asp-validation-for="Email" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="Password">Password:</label>
+                <input asp-for="Password" type="password" id="password" name="password" class="validate-password required input_field" />
+                <span asp-validation-for="Password" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="ConfirmPassword">Comfirm Password:</label>
+                <input asp-for="ConfirmPassword" type="password" id="confirmpassword" name="confirmpassword" class="validate-password required input_field" />
+                <span asp-validation-for="ConfirmPassword" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <label asp-for="PhoneNumber">Phone Number:</label>
+                <input asp-for="PhoneNumber" type="tel" id="phonenumber" name="phonenumber" class="required input_field" />
+                <span asp-validation-for="PhoneNumber" style="color: red; display: block"></span>
+                <div class="cleaner h10"></div>
+
+                <input type="submit" value="Send" id="submit" name="submit" class="subscribebtn float_l" />
+            </form>
+        </div>
+    </div>
+    <div class="cleaner"></div>
+</div>

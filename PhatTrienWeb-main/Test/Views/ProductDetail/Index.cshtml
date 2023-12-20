@@ -1,0 +1,67 @@
+﻿@using PhatTrienWeb.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Product Detail";
+    Product last = Model.OtherProducts.Last();
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model PhatTrienWeb.ViewModels.ProductDetailViewModel
+
+<div class="cleaner h20"></div>
+<div id="templatemo_main_top"></div>
+<div id="templatemo_main">
+    @await Component.InvokeAsync("Sidebar")
+
+    <div id="content">
+        <h2>Product Details</h2>
+        <div class="col col_13">
+            <a rel="lightbox[portfolio]" href="~/images/product/@Model.Product.Image" title="@Model.Product.Name">
+                <img src="~/images/product/@Model.Product.Image" alt="@Model.Product.Name" />
+            </a>
+        </div>
+        <div class="col col_13 no_margin_right">
+            <table>
+                <tr>
+                    <td height="30" width="160">Price:</td>
+                    <td>$@Model.Product.Price</td>
+                </tr>
+                <tr>
+                    <td height="30">Availability:</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td height="30">Model:</td>
+                    <td>Product 14</td>
+                </tr>
+                <tr>
+                    <td height="30">Manufacturer:</td>
+                    <td>Apple</td>
+                </tr>
+                <tr><td height="30">Quantity</td><td><input type="text" value="1" style="width: 20px; text-align: right" /></td></tr>
+            </table>
+            <div class="cleaner h20"></div>
+            <a class="add_to_cart" data-productid="@Model.Product.Id">Add to Cart</a>
+        </div>
+        <div class="cleaner h30"></div>
+
+        <h5><strong>Product Description</strong></h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper quam sit amet turpis rhoncus id venenatis tellus sollicitudin. Fusce ullamcorper, dolor non mollis pulvinar, turpis tortor commodo nisl, et semper lectus augue blandit tellus. Quisque id bibendum libero.</p>
+
+        <div class="cleaner h50"></div>
+
+        <h4>Other Products</h4>
+
+        @foreach (var item in Model.OtherProducts)
+        {
+            @await Component.InvokeAsync("Product", new { product = item, isLast = item.Equals(last) })
+        }
+
+        <a href="#" class="more float_r">View all</a>
+
+        <div class="cleaner"></div>
+    </div> <!-- END of content -->
+    <div class="cleaner"></div>
+</div> <!-- END of main -->

@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{}
+
+@model PhatTrienWeb.ViewModels.ProductsViewModel
+
+<div class="cleaner h20"></div>
+<div id="templatemo_main_top"></div>
+<div id="templatemo_main">
+    @await Component.InvokeAsync("Slider")
+    @await Component.InvokeAsync("Sidebar")
+
+    <div id="content">
+        @foreach (var category in Model.Categories)
+        {
+            <h2>@category.Name</h2>
+            @await Component.InvokeAsync("ProductList", new { categoryId = category.Id })
+            <a href="#" class="more float_r">View all</a>
+            <div class="cleaner h50"></div>
+        }
+    </div> <!-- END of content -->
+
+    <div class="cleaner"></div>
+</div> <!-- END of main -->

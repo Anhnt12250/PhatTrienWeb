@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var classIsLast = Model.IsLast ? "no_margin_right" : "";
+}
+
+@model PhatTrienWeb.ViewModels.ProductViewModel
+
+<div class="col col_14 product_gallery @classIsLast">
+    <a asp-controller="ProductDetail" asp-action="Index" asp-route-id="@Model.Product.Id"><img src="~/images/product/@Model.Product.Image" alt="@Model.Product.Name" /></a>
+    <h3>@Model.Product.Name</h3>
+    <p class="product_price">$ @Model.Product.Price</p>
+    <a class="add_to_cart" data-productid="@Model.Product.Id">
+        Add to Cart
+    </a>
+</div>
+
+

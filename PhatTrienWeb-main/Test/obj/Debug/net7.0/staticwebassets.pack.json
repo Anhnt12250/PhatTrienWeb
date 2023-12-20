@@ -1,0 +1,569 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PhatTrienWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PhatTrienWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\css\\ddsmoothmenu.css",
+      "PackagePath": "staticwebassets\\css\\ddsmoothmenu.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\css\\templatemo_style.css",
+      "PackagePath": "staticwebassets\\css\\templatemo_style.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\2co.gif",
+      "PackagePath": "staticwebassets\\images\\2co.gif"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\cart.png",
+      "PackagePath": "staticwebassets\\images\\cart.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\china.png",
+      "PackagePath": "staticwebassets\\images\\china.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\closelabel.gif",
+      "PackagePath": "staticwebassets\\images\\closelabel.gif"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\gallery\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\01.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\gallery\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\02.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\gallery\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\03.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\gallery\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\04.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\gallery\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\05.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\gallery\\06.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\06.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\gallery\\07.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\07.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\gallery\\08.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\08.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\gallery\\09.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\09.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\germany.png",
+      "PackagePath": "staticwebassets\\images\\germany.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\india.png",
+      "PackagePath": "staticwebassets\\images\\india.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\nextlabel.gif",
+      "PackagePath": "staticwebassets\\images\\nextlabel.gif"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\paypal.gif",
+      "PackagePath": "staticwebassets\\images\\paypal.gif"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\prevlabel.gif",
+      "PackagePath": "staticwebassets\\images\\prevlabel.gif"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\01.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\02.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\03.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\04.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\05.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\06.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\06.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\07.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\07.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\08.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\08.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\09.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\09.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\10.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\product\\10_l.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\10_l.jpg"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\remove_x.gif",
+      "PackagePath": "staticwebassets\\images\\remove_x.gif"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\sidebar_header_bg.png",
+      "PackagePath": "staticwebassets\\images\\sidebar_header_bg.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\slideitmoo_back.png",
+      "PackagePath": "staticwebassets\\images\\slideitmoo_back.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\slideitmoo_forward.png",
+      "PackagePath": "staticwebassets\\images\\slideitmoo_forward.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_body_home.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_body_home.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_body_subpage.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_body_subpage.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_image_01.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_image_01.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_image_02.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_image_02.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_list.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_list.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_list_01.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_list_01.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_list_02.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_list_02.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_logo.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_logo.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_main_bottom.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_main_bottom.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_main_middle.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_main_middle.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_main_top.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_main_top.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_menu_divider.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_menu_divider.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_middle.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_middle.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_searchbox.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_searchbox.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_slider.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_slider.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\templatemo_submenu.png",
+      "PackagePath": "staticwebassets\\images\\templatemo_submenu.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\images\\usa.png",
+      "PackagePath": "staticwebassets\\images\\usa.png"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\builder.js",
+      "PackagePath": "staticwebassets\\js\\builder.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\ddsmoothmenu.js",
+      "PackagePath": "staticwebassets\\js\\ddsmoothmenu.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\effects.js",
+      "PackagePath": "staticwebassets\\js\\effects.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\jquery-1.4.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.4.3.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\js\\lightbox.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\mootools-1.2-more.js",
+      "PackagePath": "staticwebassets\\js\\mootools-1.2-more.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\mootools-1.2.1-core.js",
+      "PackagePath": "staticwebassets\\js\\mootools-1.2.1-core.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\prototype.js",
+      "PackagePath": "staticwebassets\\js\\prototype.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\scriptaculous.js",
+      "PackagePath": "staticwebassets\\js\\scriptaculous.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\js\\slideitmoo-1.1.js",
+      "PackagePath": "staticwebassets\\js\\slideitmoo-1.1.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\scripts\\ddsmoothmenu.css",
+      "PackagePath": "staticwebassets\\scripts\\ddsmoothmenu.css"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\scripts\\ddsmoothmenu.js",
+      "PackagePath": "staticwebassets\\scripts\\ddsmoothmenu.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\scripts\\jquery.js",
+      "PackagePath": "staticwebassets\\scripts\\jquery.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\scripts\\jquery.lightbox-0.5.js",
+      "PackagePath": "staticwebassets\\scripts\\jquery.lightbox-0.5.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\scripts\\jquery.min.js",
+      "PackagePath": "staticwebassets\\scripts\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\scripts\\mootools-1.2-more.js",
+      "PackagePath": "staticwebassets\\scripts\\mootools-1.2-more.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\scripts\\mootools-1.2.1-core.js",
+      "PackagePath": "staticwebassets\\scripts\\mootools-1.2.1-core.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\scripts\\piroBox.1_2.js",
+      "PackagePath": "staticwebassets\\scripts\\piroBox.1_2.js"
+    },
+    {
+      "Id": "D:\\Download\\PhatTrienWeb-main\\PhatTrienWeb-main\\Test\\wwwroot\\scripts\\slideitmoo-1.1.js",
+      "PackagePath": "staticwebassets\\scripts\\slideitmoo-1.1.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PhatTrienWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PhatTrienWeb.props",
+      "PackagePath": "build\\PhatTrienWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PhatTrienWeb.props",
+      "PackagePath": "buildMultiTargeting\\PhatTrienWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PhatTrienWeb.props",
+      "PackagePath": "buildTransitive\\PhatTrienWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

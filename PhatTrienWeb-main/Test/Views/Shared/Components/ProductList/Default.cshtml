@@ -1,0 +1,16 @@
+﻿@using PhatTrienWeb.Models;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Product last = Model.LastOrDefault();
+}
+
+@model List<PhatTrienWeb.Models.Product>
+
+@foreach (var item in Model)
+{
+    @await Component.InvokeAsync("Product", new { product = item, isLast = item.Equals(last) })
+}
+
+

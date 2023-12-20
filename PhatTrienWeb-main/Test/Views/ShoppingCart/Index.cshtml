@@ -1,0 +1,87 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var total = 0;
+}
+
+<div class="cleaner h20"></div>
+<div id="templatemo_main_top"></div>
+<div id="templatemo_main">
+    @await Component.InvokeAsync("Sidebar")
+
+    <div id="content">
+        <table width="700px" cellspacing="0" cellpadding="5">
+            <tr bgcolor="#CCCCCC">
+                <th width="220" align="left">Image </th>
+                <th width="180" align="left">Description </th>
+                <th width="100" align="center">Quantity </th>
+                <th width="60" align="right">Price </th>
+                <th width="60" align="right">Total </th>
+                <th width="90"> </th>
+            </tr>
+           
+            @foreach (var item in Model)
+            {
+                total += item.Product.Price * item.Quantity;
+                <tr>
+                    <td><img src="~/images/product/@item.Product.Image" alt="@item.Product.Name" /></td>
+                    <td>Etiam in tellus</td>
+                    <td align="center"><input id="@($"quantity-{item.ProductId}")" type="text" value="@item.Quantity" style="width: 20px; text-align: right" /> </td>
+                    <td align="right">$@item.Product.Price </td>
+                    <td align="right">$@(item.Product.Price * @item.Quantity)</td>
+                    <td align="center">
+                        <a class="update-cart-item" data-productid="@item.ProductId">
+                            Update
+                        </a>
+                    </td>
+                    <td align="center">
+                        <a asp-controller="ShoppingCart" asp-action="RemoveFromCart" asp-route-id="@item.ProductId">
+                            <img src="~/images/remove_x.gif" alt="remove" />
+                            <br />Remove
+                        </a> 
+                    </td>
+                </tr> 
+            }
+
+            <tr>
+                <td align="right" style="background:#ccc; font-weight:bold"> Total </td>
+                <td align="right" style="background:#ccc; font-weight:bold"> $@total </td>
+                <td style="background:#ccc; font-weight:bold"> </td>
+            </tr>
+        </table>
+        <div style="float:right; width: 215px; margin-top: 20px;">
+            <div class="checkout"><a href="checkout.html" class="more">Proceed to Checkout</a></div>
+            <div class="cleaner h20"></div>
+            <div class="continueshopping"><a href="javascript:history.back()" class="more">Continue Shopping</a></div>
+        </div>
+    </div>
+    <div class="cleaner"></div>
+</div> <!-- END of main -->
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery(".update-cart-item").click(function (event) {
+            event.preventDefault();
+            var productId = jQuery(this).attr("data-productid");
+            var quantity = jQuery("#quantity-" + productId).val();
+            var url = "/ShoppingCart/UpdateQuantity";
+            console.log(url);
+            jQuery.ajax({
+                type: "POST",
+                url: url,
+                data: {
+                    productId: productId,
+                    quantity: quantity
+                },
+                success: function (result) {
+                    alert("Success");
+                    window.location.href = "@Url.RouteUrl("ShoppingCart")";
+                },
+                error: function (result) {
+                    alert("Error");
+                }
+            });
+        });
+    });
+</script>
